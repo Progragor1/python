@@ -15,5 +15,5 @@ for row in reader:
             row[i]=row[i].replace('\n',',')
             print(naming[i]+': ' + re.sub(r'\<[^>]*\>', '', row[i]))
         print()
-```py
+```
 
